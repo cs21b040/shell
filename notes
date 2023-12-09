@@ -1,0 +1,22 @@
+nproc	---- for CPU info
+free	---- for RAM info
+top	---- for Currently occupying processes info
+df 	---- for disk info
+du 	---- disk utilizer
+ps 	---- to know info about all processes running
+ps -ef 	---- it also shows all system processes   ---> tip:: use grep for specific things
+awk,cut ---- it helps in filtering coloumns
+curl	---- basically a POSTMAN in terminal curl URL to get file 
+	     curl -X GET to make a get request ...etc
+wget 	---- similar to curl but it *downloads* the file in / folder
+find 	---- find / -name abc.txt  ->TIP: it means / for root folder for searching file name
+kill 	---- to kill a process with pid EX:: kill -9 pid
+trap	---- to trap a signals EX:: trap "echo dont use ctrl+C" SIGINT  
+	     SIGINT is signal interupt
+set -x	---- used to change to debug mode-> it shows all commands being runned before its o/p
+set -e  ---- if an error occurs it stops the flow of execution
+set -o  ---- a flaw of set -e is it doesn't show error if pipes contain error in middle and last CMD works
+	 
+
+
+ 
