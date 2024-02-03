@@ -22,3 +22,4 @@ set -o  ---- a flaw of set -e is it doesn't show error if pipes contain error in
 Useful commands
 rpm -qa --queryformat '%{name} %{size}\n' | sort -n -k 2 -r | head -n 10    --->top 10 ram eating processes list
 du -m or -g | sort -nr | head -10 ---> top 10 large files occupying in Your hard disk 
+timedatectl set-local-rtc 1 --adjust-system-clock --->sets date and time syncronize with local time
